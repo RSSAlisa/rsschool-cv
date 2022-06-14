@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Orbitron&family=Questrial&display=swap');
+
+
+html {
+  scroll-behavior: smooth; 
+}
+
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(4, 3, 3);
+color:rgb(247, 247, 250);
+font-family: 'Questrial', sans-serif;
+}
+
+
+li {
+  list-style-type: none;
+  
+}
+
+ul{
+
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+.nav-menu {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style: none;
+ }
+
+.nav-list a {
+  color: #8ca8f5;
+  text-decoration: none;  
+  transition: color 1.5s;
+  font-size: 15px;
+  padding:10px ;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.nav-list a:hover {
+  color: #ffffff;
+}
+ 
+
+.ava {
+  width: 220px;
+  border-radius:50%;
+  box-shadow: 6px 6px 16px rgb(80, 121, 255);
+  margin-bottom: 20px;
+  
+}
+    
+#name {
+display: flex;
+justify-content: space-around;
+font-size: 20px;
+background-color: rgb(185, 206, 206);
+margin-top: 10px;
+text-transform: uppercase;
+letter-spacing: 2px;
+
+ 
+}
+
+.name >h1 {
+text-shadow: 10px 10px 20px rgb(30, 75, 223);
+
+}
+
+.name >h2 {
+text-shadow: 10px 10px 20px rgb(30, 75, 223);
+
+}
+
+
+#photo {
+
+display: flex;
+justify-content: center;
+}
+  
+#about {
+text-align: center;
+
+} 
+.about >h2 {
+background-color:rgb(138, 139, 139);
+ font-size: 35px; 
+ text-shadow: 10px 10px 20px rgb(30, 75, 223);
+}  
+  
+.about >p {
+font-size:20px ;
+
+} 
+
+#skills {
+text-align: center;
+font-size: 20px;
+
+
+}
+
+.skills >h2 {
+background-color:rgb(138, 139, 139);
+font-size:35px ;
+text-shadow: 10px 10px 20px rgb(30, 75, 223);
+}
+
+.skill >ul {
+  list-style-type: none;
+ 
+}
+
+#education {
+  text-align: center;
+}
+
+.education >h2 {
+background-color:rgb(138, 139, 139);
+font-size: 35px; 
+text-shadow: 10px 10px 20px rgb(30, 75, 223);
+}
+
+.education >p {
+
+font-size: 20px;
+}
+
+#code {
+  text-align: center;
+}
+.code >h2 {
+  background-color:rgb(138, 139, 139);
+  font-size: 35px; 
+  text-shadow: 10px 10px 20px rgb(30, 75, 223);
+}
+.code >p {
+
+  font-size: 20px;
+}
+#project {
+  text-align: center;
+}
+.project >h2 {
+  background-color:rgb(138, 139, 139);
+  font-size: 35px; 
+  text-shadow: 10px 10px 20px rgb(30, 75, 223);
+}
+.project >p {
+  font-size: 20px;
+}
+
+#english {
+  text-align: center;
+}
+.english >h2 {
+
+  background-color:rgb(138, 139, 139);
+  font-size: 35px; 
+  text-shadow: 10px 10px 20px rgb(30, 75, 223);
+}
+.english >p {
+font-size: 20px;
+}
+
+#contacts {
+  text-align: center;
+  font-size: 20px;
+}
+.contacts >h2 {
+  background-color:rgb(138, 139, 139);
+  font-size: 35px; 
+  text-shadow: 10px 10px 20px rgb(30, 75, 223);
+
+}
+.contacts a {
+  text-decoration: none;
+  color: #8ca8f5;
+  line-height: 2;
+}
+
+
+.footer {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #afbce2;
+  color: black;
+  min-height: 30px;
+}
+
+footer a {
+text-decoration: none;
+color: rgb(10, 9, 9);
+}
+
+.year-2022 {
+ font-size: 30px;
+ margin-top: 10px;
+}
+
+
+.github {
+margin-top: 5px;
+ }
